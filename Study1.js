@@ -1,4 +1,8 @@
 /*
+git add .
+git commit -m "Added feature X"
+git push
+
 //- комментарий в одну строку
 + - сложение
 - - вычитание
