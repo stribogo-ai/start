@@ -1,8 +1,9 @@
 /*
 git add .
-git commit -m "Added feature X"
+git commit -m "testcommit"
 git push
 git pull
+git clone
 
 //- комментарий в одну строку
 + - сложение
