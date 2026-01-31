@@ -2,6 +2,7 @@
 git add .
 git commit -m "Added feature X"
 git push
+git pull
 
 //- комментарий в одну строку
 + - сложение
