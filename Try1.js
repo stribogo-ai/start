@@ -8,12 +8,15 @@ console.log(getHiddenCard('1234567812345678', 4));
 //
 //
 
-const getName = (user) => user?.name;
+const userr = {
+  name: '   Misha   ',
+};
+const getName = (userr) => userr?.name;
 // оператор ? проверяет является ли user не null и не undefined
 const trim = (str) => str.trim();
 const withDefault = (str) => str || 'Guest';
 
-const name = withDefault(trim(getName(user)));
+const name = withDefault(trim(getName(userr)));
 console.log(name);
 // - Цепочка вызовов функций с обработкой возможных ошибок.
 //
@@ -375,8 +378,8 @@ function removeEmpty(strings) {
 function normalizeCase(strings) {
   const result = [];
   for (const s of strings) {
-  const first = s[0].toUpperCase();
- const rest = s.slice(1).toLowerCase();
+    const first = s[0].toUpperCase();
+    const rest = s.slice(1).toLowerCase();
     result.push(first + rest);
   }
   return result;
